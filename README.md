@@ -30,7 +30,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/ddD8cYU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Remote connecting to my specific IP adress created in azure as a Virtual Macibe (VM).
+Remote connecting to my specific IP adress created in azure as a Virtual Machine (VM).
 </p>
 <br />
 
