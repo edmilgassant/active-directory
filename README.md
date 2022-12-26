@@ -45,9 +45,3 @@ Created two VM's and going to make sure they both are receiving, acknowledging a
 </p>
 <p>
 Adding roles and features. Installing Active Directory Domain Services in the server manager in DC-1. Going to allow the ICMPv4 versions.
-
-<p>
-<img src="https://i.imgur.com/tClvwlf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Used powershell to -t ping the IP address from DC-1. At first, it was timed out. After allowing ICMPv4 in Active Directory, now client-1 is getting replies from DC-1. A lot of steps to this but very cool to see the this networks. 
