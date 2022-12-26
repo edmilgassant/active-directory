@@ -27,15 +27,27 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/ddD8cYU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Z845RBh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Remote connecting to my specific IP adress created in azure as a Virtual Machine (VM).
+Doing a configuration on a virtual machine under DC-1 to static instead of dynamic. Static means the IP address won't change if I turned off the computer or if it shuts down or anything, it will remian the same. 
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/vmme7IE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Created two VM's and going to make sure they both are receiving, acknowledging and replying within the same virtual network using ICMPv4. DC-1 is Windows version. Client-1 is Ubuntu version.
 
 <p>
 <img src="https://i.imgur.com/7unkGzh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Installing Active Directory in the server manager.
+Adding roles and features. Installing Active Directory Domain Services in the server manager in DC-1. Going to allow the ICMPv4 versions.
+
+<p>
+<img src="https://i.imgur.com/tClvwlf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Used powershell to -t ping the IP address from DC-1. At first, it was timed out. After allowing ICMPv4 in Active Directory, now client-1 is getting replies from DC-1. A lot of steps to this but very cool to see the this networks. 
