@@ -41,7 +41,7 @@ Created both DC-1 and Client-1 VMs.
 Went to DC-1 in Azure and clicked on the NIC >Ip Configuration > Changed the IP Address from Dynamic to Static in order for the IP adress to not change.
 
 <p>
-<img src="https://i.imgur.com/7unkGzh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UedV58O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Adding roles and features. Installing Active Directory Domain Services in the server manager in DC-1. Going to allow the ICMPv4 versions.
