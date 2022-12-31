@@ -44,4 +44,4 @@ Went to DC-1 in Azure and clicked on the NIC >Ip Configuration > Changed the IP 
 <img src="https://i.imgur.com/UedV58O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Adding roles and features. Installing Active Directory Domain Services in the server manager in DC-1. Going to allow the ICMPv4 versions.
+Adding roles and features. Installing Active Directory Domain Services in the server manager in DC-1.
