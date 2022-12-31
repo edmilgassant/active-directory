@@ -27,7 +27,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/Xqf1Lte.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MDjxkvm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Created both DC-1 and Client-1 VMs.
@@ -35,7 +35,7 @@ Created both DC-1 and Client-1 VMs.
 
 
 <p>
-<img src="https://i.imgur.com/bGyaiaf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/c4vYcQa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Went to DC-1 in Azure and clicked on the NIC >Ip Configuration > Changed the IP Address from Dynamic to Static in order for the IP adress to not change.
